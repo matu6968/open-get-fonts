@@ -1,12 +1,12 @@
 {
-  "name": "@matu6968/open-get-fonts-linux-x64-gnu",
-  "description": "Prebuilt binary package for `open-get-fonts` on `linux-x64-gnu`.",
+  "name": "@matu6968/open-get-fonts-win32-x86-msvc",
+  "description": "Prebuilt binary package for `open-get-fonts` on `win32-x86-msvc`.",
   "version": "0.1.0",
   "os": [
-    "linux"
+    "win32"
   ],
   "cpu": [
-    "x64"
+    "x86"
   ],
   "main": "index.node",
   "files": [
@@ -14,21 +14,21 @@
   ],
   "neon": {
     "type": "binary",
-    "rust": "x86_64-unknown-linux-gnu",
-    "node": "linux-x64-gnu",
-    "os": "linux",
-    "arch": "x64",
-    "abi": "gnu"
+    "rust": "x86-pc-windows-msvc",
+    "node": "win32-x86-msvc",
+    "os": "win32",
+    "arch": "x86",
+    "abi": "msvc"
   },
   "author": "matu6968",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/matu6968/open-get-fonts.git"
+    "url": "git+https://github.com/matu6968/open-btime.git"
   },
   "keywords": [
     "obsidian",
     "obsidianmd",
-    "get-fonts",
+    "btime",
     "rust",
     "fonts",
     "open",

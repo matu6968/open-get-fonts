@@ -1,12 +1,12 @@
 {
-  "name": "@matu6968/open-get-fonts-linux-x64-gnu",
-  "description": "Prebuilt binary package for `open-get-fonts` on `linux-x64-gnu`.",
+  "name": "@matu6968/open-get-fonts-linux-arm-gnueabihf",
+  "description": "Prebuilt binary package for `open-get-fonts` on `linux-arm-gnueabihf`.",
   "version": "0.1.0",
   "os": [
     "linux"
   ],
   "cpu": [
-    "x64"
+    "armv7l"
   ],
   "main": "index.node",
   "files": [
@@ -14,21 +14,21 @@
   ],
   "neon": {
     "type": "binary",
-    "rust": "x86_64-unknown-linux-gnu",
-    "node": "linux-x64-gnu",
+    "rust": "arm-unknown-linux-gnueabihf",
+    "node": "linux-arm-gnueabihf",
     "os": "linux",
-    "arch": "x64",
+    "arch": "armv7l",
     "abi": "gnu"
   },
   "author": "matu6968",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/matu6968/open-get-fonts.git"
+    "url": "git+https://github.com/matu6968/open-btime.git"
   },
   "keywords": [
     "obsidian",
     "obsidianmd",
-    "get-fonts",
+    "btime",
     "rust",
     "fonts",
     "open",

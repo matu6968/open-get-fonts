@@ -23,7 +23,7 @@
   "author": "matu6968",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/matu6968/open-get-fonts-obsidian.git"
+    "url": "git+https://github.com/matu6968/open-get-fonts.git"
   },
   "keywords": [
     "obsidian",
@@ -35,8 +35,8 @@
     "source"
   ],
   "bugs": {
-    "url": "https://github.com/matu6968/open-get-fonts-obsidian/issues"
+    "url": "https://github.com/matu6968/open-get-fonts/issues"
   },
-  "homepage": "https://github.com/matu6968/open-get-fonts-obsidian#readme",
+  "homepage": "https://github.com/matu6968/open-get-fonts#readme",
   "license": "MIT"
 }
