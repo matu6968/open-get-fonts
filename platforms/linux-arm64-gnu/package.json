@@ -1,0 +1,42 @@
+{
+  "name": "@matu6968/open-get-fonts-linux-arm64-gnu",
+  "description": "Prebuilt binary package for `open-get-fonts` on `linux-arm64-gnu`.",
+  "version": "0.1.0",
+  "os": [
+    "linux"
+  ],
+  "cpu": [
+    "arm64"
+  ],
+  "main": "index.node",
+  "files": [
+    "index.node"
+  ],
+  "neon": {
+    "type": "binary",
+    "rust": "aarch64-unknown-linux-gnu",
+    "node": "linux-arm64-gnu",
+    "os": "linux",
+    "arch": "arm64",
+    "abi": "gnu"
+  },
+  "author": "matu6968",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matu6968/open-get-fonts-obsidian.git"
+  },
+  "keywords": [
+    "obsidian",
+    "obsidianmd",
+    "get-fonts",
+    "rust",
+    "fonts",
+    "open",
+    "source"
+  ],
+  "bugs": {
+    "url": "https://github.com/matu6968/open-get-fonts-obsidian/issues"
+  },
+  "homepage": "https://github.com/matu6968/open-get-fonts-obsidian#readme",
+  "license": "MIT"
+}

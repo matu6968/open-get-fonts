@@ -1,0 +1,30 @@
+[package]
+name = "open-get-fonts"
+version = "0.1.0"
+description = "Open source reimplemenation of the get-fonts native library seen in the Obsidian app originally written in C++"
+authors = ["matu6968"]
+license = "MIT"
+edition = "2021"
+exclude = ["index.node"]
+
+[lib]
+crate-type = ["cdylib"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+neon = "1"
+font-kit = "0.11"
+pathfinder_geometry = "0.5"
+log = "0.4"
+
+[target.'cfg(target_os = "linux")'.dependencies]
+fontconfig = "0.5"
+
+[target.'cfg(target_os = "macos")'.dependencies]
+core-foundation = "0.9"
+core-text = "20.1"
+
+[target.'cfg(target_os = "windows")'.dependencies]
+winapi = { version = "0.3", features = ["dwrite"] }
+widestring = "1.0"
