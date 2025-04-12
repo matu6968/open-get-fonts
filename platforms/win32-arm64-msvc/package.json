@@ -1,0 +1,42 @@
+{
+  "name": "@matu6968/open-get-fonts-win32-arm64-msvc",
+  "description": "Prebuilt binary package for `open-get-fonts` on `win32-arm64-msvc`.",
+  "version": "0.1.0",
+  "os": [
+    "win32"
+  ],
+  "cpu": [
+    "arm64"
+  ],
+  "main": "index.node",
+  "files": [
+    "index.node"
+  ],
+  "neon": {
+    "type": "binary",
+    "rust": "x86_64-pc-windows-msvc",
+    "node": "win32-arm64-msvc",
+    "os": "win32",
+    "arch": "arm64",
+    "abi": "msvc"
+  },
+  "author": "matu6968",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matu6968/open-get-fonts.git"
+  },
+  "keywords": [
+    "obsidian",
+    "obsidianmd",
+    "get-fonts",
+    "rust",
+    "fonts",
+    "open",
+    "source"
+  ],
+  "bugs": {
+    "url": "https://github.com/matu6968/open-get-fonts/issues"
+  },
+  "homepage": "https://github.com/matu6968/open-get-fonts#readme",
+  "license": "MIT"
+}
